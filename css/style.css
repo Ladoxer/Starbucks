@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+nav .logo{
+  width: 39px;
+  /* height: 39px; */
+}
+.navbar-toggler{
+  border: none;
+  /* width: 30px; */
+}
+.find:hover{
+  color: darkgreen;
+}
+.card-body{
+  margin: 0;
+  padding: 0;
+}
+.first-card{
+  background-color: #d4e9e2;
+}
+.second-card{
+  background-color: #ffc519;
+}
+.third-card{
+  background-color: #fff4d4;
+}
+.mainCards .img{
+  padding: 0;
+}
+footer{
+  box-shadow: 0 0px 5px  rgba(0, 0, 0, 0.15);
+}
+.icons .icon-img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.icons .icon-img:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.icons img{
+  width: 32px;
+  margin-left: 5px;
+}
+.about div p{
+  color: rgba(0, 0, 0, 0.58);
+}
+.about div p:hover{
+  color: #000;
+}
+.privacyLarge p{
+  border-right: 1.6px solid rgba(0, 0, 0, 0.566);
+}
+.privacyLarge .special{
+  border: none;
+}
+.privacyLarge p:hover, .privacy p:hover{
+  text-decoration: underline;
+}
+.copyright p{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.58);
+}
